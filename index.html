@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .inputtb{
+            height: 35px;
+    width: 92px;
+    background-color: #007BFF;
+    color: white;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <p class="attributeselection">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam ipsam repellat incidunt provident vel consectetur dignissimos earum aut dolore soluta sed voluptates placeat et ipsa, tempore expedita. Sapiente exercitationem cupiditate natus fugiat obcaecati sequi?</p>
+
+<ul>
+    <li class="lii">List</li>
+    <li class="lii">List</li>
+    <li class="lii">List</li>
+    <li class="lii">List</li>
+    <li class="lii">List</li>
+    <li class="lii">List</li>
+    <li class="lii">List</li>
+    <li class="lii">List</li>
+    <li class="lii">List</li>
+</ul>
+<input type="text" class="inputf" id="">
+
+<select class="selection" name="" id="">
+    <option selected disabled value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+    <option value="option3">Option 3</option>
+</select>
+<input id="inputbtn" type="file" name="" id="">
+<div class="inputtb">
+    Upload File
+</div>
+
+    <button onclick="sendRequest()">Send AJAX Request</button>
+    <script src="script.js"></script>
+   
+
+<!-- <script>
+function sendRequest() {
+    fetch("https://jsonplaceholder.typicode.com/posts/1")
+        .then(response => response.json())
+        .then(data => {
+            console.log("Server Response:", data);
+        })
+        .catch(error => {
+            console.log("Error:", error);
+        });
+}
+</script> -->
+</body>
+</html>

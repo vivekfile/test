@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local storage</title>
+</head>
+<body>
+    <h1></h1>
+    <script>
+        // let mh = document.querySelector("h1");
+        // let val = localStorage.getItem("name");
+        // mh.innerText = val;
+        // sessionStorage.setItem("name","vikash");
+         let finl = localStorage.setItem("cars",JSON.stringify(["mercedes","bmw","alto"]));
+        let op = JSON.parse(localStorage.getItem("cars"));
+        console.log(op);
+        
+        
+    </script>
+</body>
+</html>
